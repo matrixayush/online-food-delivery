@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div id="app" class="flex items-center justify-center h-screen">
+    <div class="text-center bg-white p-6 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold mb-4">Flask + Tailwind CSS Example</h1>
+        <button id="fetchDataBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Fetch Data from Flask
+        </button>
+        <p id="message" class="text-lg mt-4"></p>
+    </div>
+</div>
+{% endblock %}
